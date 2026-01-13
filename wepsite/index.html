@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#0f172a;
+      color:#e5e7eb;
+    }
+
+    header{
+      background:linear-gradient(135deg,#6366f1,#22d3ee);
+      padding:60px 20px;
+      text-align:center;
+    }
+
+    header h1{
+      font-size:3rem;
+    }
+
+    header p{
+      margin-top:10px;
+      font-size:1.2rem;
+    }
+
+    nav{
+      background:#020617;
+      padding:12px;
+      text-align:center;
+      position:sticky;
+      top:0;
+    }
+
+    nav a{
+      color:white;
+      margin:0 15px;
+      text-decoration:none;
+      font-weight:bold;
+    }
+
+    nav a:hover{
+      color:#22d3ee;
+    }
+
+    section{
+      padding:60px 20px;
+      max-width:1000px;
+      margin:auto;
+    }
+
+    .card{
+      background:#020617;
+      padding:25px;
+      border-radius:12px;
+      margin-top:20px;
+      box-shadow:0 10px 30px rgba(0,0,0,.4);
+    }
+
+    .skills span{
+      display:inline-block;
+      background:#1e293b;
+      padding:8px 16px;
+      border-radius:20px;
+      margin:5px;
+    }
+
+    button{
+      background:#6366f1;
+      color:white;
+      border:none;
+      padding:12px 25px;
+      border-radius:25px;
+      cursor:pointer;
+      margin-top:15px;
+    }
+
+    button:hover{
+      background:#4f46e5;
+    }
+
+    footer{
+      background:#020617;
+      text-align:center;
+      padding:20px;
+      margin-top:40px;
+      color:#94a3b8;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Welcome to My Website</h1>
+  <p>100% Free Website using HTML & CSS</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>
+      Hi! Ami ekjon beginner web developer.
+      Ei website ta pura free te coding diye banano.
+      Tumi chaile eta personal, gym, anime, ba business website hisebe use korte paro.
+    </p>
+  </div>
+</section>
+
+<section id="services">
+  <h2>Services</h2>
+  <div class="card">
+    <ul>
+      <li>✔ Website Design</li>
+      <li>✔ Frontend Development</li>
+      <li>✔ Portfolio Website</li>
+      <li>✔ Landing Page</li>
+    </ul>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="card skills">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>Responsive Design</span>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: yourname@email.com</p>
+    <p>Facebook: facebook.com/yourname</p>
+    <button onclick="alert('Thanks for visiting!')">Say Hello</button>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 My Website | Hosted Free on GitHub Pages</p>
+</footer>
+
+</body>
+</html>
